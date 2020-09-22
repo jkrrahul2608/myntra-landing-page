@@ -1,0 +1,154 @@
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* adds some margin below the link sets  */
+
+ .navbar .dropdown-menu {
+   border:none;
+ }
+
+ /* breakpoint and up - mega dropdown styles */
+ @media screen and (min-width: 994px) {
+   
+   /* remove the padding from the navbar so the dropdown hover state is not broken */
+ .navbar {
+   padding-top:0px;
+   padding-bottom:0px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 1px 4px 0 rgba(0, 0, 0, 0.19);
+   background-color: #333;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 2;
+ }
+
+ /* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
+
+ .nav-link{
+     font-size: 14px;
+     font-weight: 500;
+
+     
+ }
+
+ .nav-links{
+     font-size:12px;
+ }
+ /* makes the dropdown full width  */
+ .dropdown {position:static;}
+ 
+ .navbar .dropdown-menu {
+   width:89%;
+   left:80px;
+   right:0;
+ /*  height of nav-item  */
+     top:62px;
+ }
+   
+   /* shows the dropdown menu on hover */
+ .navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
+   display:block!important;
+ }
+   
+   .navbar .dropdown-menu {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 1px 4px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
+   }
+ 
+ }
+ .ess,.kid,.men,.home,.women{
+    border-bottom:5px solid transparent;
+    line-height: 2.7;
+    margin-left: 10px;
+
+ }
+ .ess:hover{
+     border-bottom: 5px solid green;
+
+ }
+ .home:hover{
+    border-bottom: 5px solid red;
+
+ }
+ .kid:hover{
+    border-bottom: 5px solid rgb(255, 208, 0);
+
+ }
+ .women:hover{
+    border-bottom: 5px solid rgb(0, 153, 255);
+
+ }
+ .men:hover{
+    border-bottom: 5px solid rgb(255, 0, 212);
+
+ }
+ .form-control{
+     width: 350px !important;
+     background-color: rgb(241, 241, 241)!important;
+ }
+ .search::placeholder{
+     font-size:12px;
+ }
+ input:focus { 
+  outline:none;
+  border: 1px solid #0357f3 !important; 
+  /* create a BIG glow */
+  box-shadow: 0px 0px 3px #0357f3 !important; 
+  background-color: white !important;
+}​
+  
+.dropdown-1{
+  padding: 0px 0px !important;
+}
+  .dropdown-1 .dropbtn-1 {
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    border-bottom: 5px solid white;
+    cursor: pointer;
+line-height: 1.9;
+  }
+  
+
+   .dropbtn-1:hover {
+  border-bottom:5px solid red;
+  }
+
+  .dropdown-content-1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 23%;
+    height:470px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right:70px;
+    top:65px;
+    
+  }
+  
+  .dropdown-content-1 a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content-1 a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown-1:hover .dropdown-content-1 {
+    display: block;
+  }
+
+  .clearance-images,.most-images{
+
+    width: 20%;
+  }
